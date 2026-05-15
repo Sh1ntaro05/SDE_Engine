@@ -1,0 +1,28 @@
+[project]
+name = "sde-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "pybind11>=3.0.4",
+    "scikit-build-core>=0.12.2",
+]
+
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit-build_core.build"
+
+[project]
+name = "sde_engine"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+]
