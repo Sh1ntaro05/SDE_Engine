@@ -13,14 +13,7 @@ dependencies = [
 
 [build-system]
 requires = ["scikit-build-core", "pybind11"]
-build-backend = "scikit-build_core.build"
-
-[project]
-name = "sde_engine"
-version = "0.1.0"
-dependencies = [
-    "numpy",
-]
+build-backend = "scikit_build_core.build"
 
 [tool.uv]
 dev-dependencies = [
